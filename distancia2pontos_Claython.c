@@ -16,7 +16,7 @@ float distancia(point A, point B) {
 }
 
 int main(void) {
-	srand(time(0));
+    srand(time(0));
     int i;
     
     point A, B;
