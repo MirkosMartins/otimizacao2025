@@ -14,16 +14,18 @@
         const x1 = -6; 
         const y1 = 0;
         const x2 = 0;
-        const y2 = 2;
+        const y2 = -4;
 
         const a = (y2 - y1) / (x2 - x1);
         const b = y1 - a * x1;
-
+        console.log(a)
+        console.log(b)
+        
         const xValues = [];
         const yValues = [];
         
         for (let x = -10; x <= 10; x++) {
-            const y = a * x + b;
+            const y = a * x + b;x
             xValues.push(x);
             yValues.push(y);
         }

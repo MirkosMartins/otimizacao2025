@@ -1,7 +1,8 @@
-const x1 = -6; 
+const x1 = 3; 
 const y1 = 0;
 const x2 = 0;
-const y2 = 2;
+const y2 = -3;
+
 
 console.log("x1: ", x1);
 console.log("y1: ", y1);
@@ -12,4 +13,4 @@ console.log("a: ", a);
 
 const b = y1 - a * x1;
 console.log("b: ", b);
-
+console.log("y = " + a + "x" + b)
