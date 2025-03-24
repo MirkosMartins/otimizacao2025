@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gráfico da Reta</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+
+    <div id="grafico"></div>
+
+    <script>
+        const x1 = -6; 
+        const y1 = 0;
+        const x2 = 0;
+        const y2 = 2;
+
+        const a = (y2 - y1) / (x2 - x1);
+        const b = y1 - a * x1;
+
+        const xValues = [];
+        const yValues = [];
+        
+        for (let x = -10; x <= 10; x++) {
+            const y = a * x + b;
+            xValues.push(x);
+            yValues.push(y);
+        }
+
+        const trace = {
+            x: xValues,
+            y: yValues,
+            mode: 'lines',
+            type: 'scatter',
+            name: 'Reta',
+            line: {color: 'blue', width: 2}
+        };
+
+        const data = [trace];
+
+        const layout = {
+            title: 'Gráfico da Reta',
+            xaxis: {
+                title: 'X',
+                range: [-10, 10     ],
+                tickmode: 'linear',
+                dtick: 1,
+                showgrid: true,
+                zeroline: true,
+            },
+            yaxis: {
+                title: 'Y',
+                range: [-10, 10],
+                tickmode: 'linear',
+                dtick: 1,
+                showgrid: true,
+                zeroline: true,
+            },
+            showlegend: false,
+            plot_bgcolor: 'white',
+            paper_bgcolor: 'white'
+        };
+
+        Plotly.newPlot('grafico', data, layout);
+    </script>
+</body>
+</html>
