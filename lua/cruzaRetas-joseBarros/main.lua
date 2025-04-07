@@ -1,7 +1,7 @@
 --[[
 [x] pegar arquivos pontos de um arquivo .txt e gerar a função deles
 [x] fazer combinações
-[ ] ver onde elas se cruzam
+[x] ver onde elas se cruzam
 --]]
 
 -- ver onde se cuzam
@@ -18,12 +18,13 @@ end
 -- leitura do arquivo
 arquivo = io.open('input.txt', "r")
 pontos = {}
-i = 0
+i = 1
 for linha in string.gmatch(arquivo:read("a"), "[^%s]+") do
     pontos[i] = linha
     i = i+1
 end
 arquivo:close()
+print(#pontos)
 
 -- separar pontos e achar função
 plano = {}
@@ -39,19 +40,18 @@ end
 combinacoes = {}
 for i = 1, #funcoes -1 do
     for j = i+1, #funcoes do
-        table.insert(combinacoes, {funcoes[i], funcoes[j], cruzam(funcoes[i], funcoes[j])})
+        table.insert(combinacoes, {funcoes[i], funcoes[j], plano[i], plano[j], cruzam(funcoes[i], funcoes[j])})
     end
 end
 
 -- mostrar cruzamento das retas
 for key, e in pairs(combinacoes) do
-    if e[3][1] and e[3][2] then
-        print(string.format('y = %f x + (%d) | y = %f x + (%d) | P = (%f, %f)', e[1][1], e[1][2], e[2][1], e[2][2], e[3][1], e[3][2]))
+    if e[5][1] and e[5][2] then
+        print(string.format('y = %f x + (%d) | (%d, %d)(%d, %d) | y = %f x + (%d) | (%d, %d)(%d, %d) | P = (%f, %f)', e[1][1], e[1][2], e[3][1][1], e[3][1][2], e[3][2][1], e[3][2][2], e[2][1], e[2][2], e[4][1][1], e[4][1][2], e[4][2][1], e[4][2][2], e[5][1], e[5][2]))
     else
-        print(string.format('y = %f x + (%d) | y = %f x + (%d) | retas paralelas', e[1][1], e[1][2], e[2][1], e[2][2]))
+        print(string.format('y = %f x + (%d) | (%d, %d)(%d, %d) | y = %f x + (%d) | (%d, %d)(%d, %d) | retas paralelas', e[1][1], e[1][2], e[3][1][1], e[3][1][2], e[3][2][1], e[3][2][2], e[2][1], e[2][2], e[4][1][1], e[4][1][2], e[4][2][1], e[4][2][2]))
     end
 end
-
 -- parte gráfica
 function love.load()
     love.window.setMode(1900, 1000)  -- Aumentando o tamanho da janela
