@@ -1,0 +1,113 @@
+Escolha a opcao de entrada:
+1 - Informar os pontos manualmente
+2 - Gerar pontos aleatoriamente (entre -5 e 5)
+1
+Informe o numero de retas: 7
+
+Reta 1:
+Informe o ponto 1 (x1, y1): 0 -6
+Informe o ponto 2 (x2, y2): 1 0
+
+Reta 2:
+Informe o ponto 1 (x1, y1): 0 4
+Informe o ponto 2 (x2, y2): 6 0
+
+Reta 3:
+Informe o ponto 1 (x1, y1): 0 1
+Informe o ponto 2 (x2, y2): -1 0
+
+Reta 4:
+Informe o ponto 1 (x1, y1): 0 -3
+Informe o ponto 2 (x2, y2): 3 0
+
+Reta 5:
+Informe o ponto 1 (x1, y1): 0 3
+Informe o ponto 2 (x2, y2): -2 0
+
+Reta 6:
+Informe o ponto 1 (x1, y1): 0 5
+Informe o ponto 2 (x2, y2): 5 0
+
+Reta 7:
+Informe o ponto 1 (x1, y1): 0 2
+Informe o ponto 2 (x2, y2): 2 0
+
+Retas Paralelas Encontradas:
+Retas 3 e 4 sao paralelas
+  Reta 3: (0, 1) -> (-1, 0)
+  Reta 4: (0, -3) -> (3, 0)
+Retas 6 e 7 sao paralelas
+  Reta 6: (0, 5) -> (5, 0)
+  Reta 7: (0, 2) -> (2, 0)
+
+Foram encontradas 19 interseccoes.
+Interseccao 1: (1.5, 3)
+Interseccao 2: (1.4, 2.4)
+Interseccao 3: (0.6, -2.4)
+Interseccao 4: (2, 6)
+Interseccao 5: (1.57143, 3.42857)
+Interseccao 6: (1.14286, 0.857143)
+Interseccao 7: (1.8, 2.8)
+Interseccao 8: (4.2, 1.2)
+Interseccao 9: (0.461538, 3.69231)
+Interseccao 10: (3, 2)
+Interseccao 11: (-6, 8)
+Interseccao 12: (-4, -3)
+Interseccao 13: (2, 3)
+Interseccao 14: (0.5, 1.5)
+Interseccao 15: (-12, -15)
+Interseccao 16: (4, 1)
+Interseccao 17: (2.5, -0.5)
+Interseccao 18: (0.8, 4.2)
+Interseccao 19: (-0.4, 2.4)
+Arquivo input.txt criado com sucesso!
+Executando o script GerarGrafico.py...
+=== RETAS ===
+Reta 1:
+  P1: (0, -6)
+  P2: (1, 0)
+
+Reta 2:
+  P1: (0, 4)
+  P2: (6, 0)
+
+Reta 3:
+  P1: (0, 1)
+  P2: (-1, 0)
+
+Reta 4:
+  P1: (0, -3)
+  P2: (3, 0)
+
+Reta 5:
+  P1: (0, 3)
+  P2: (-2, 0)
+
+Reta 6:
+  P1: (0, 5)
+  P2: (5, 0)
+
+Reta 7:
+  P1: (0, 2)
+  P2: (2, 0)
+
+=== INTERSEÇÕES ===
+Interseção 1: (1.5, 3)
+Interseção 2: (1.4, 2.4)
+Interseção 3: (0.6, -2.4)
+Interseção 4: (2, 6)
+Interseção 5: (1.57143, 3.42857)
+Interseção 6: (1.14286, 0.857143)
+Interseção 7: (1.8, 2.8)
+Interseção 8: (4.2, 1.2)
+Interseção 9: (0.461538, 3.69231)
+Interseção 10: (3, 2)
+Interseção 11: (-6, 8)
+Interseção 12: (-4, -3)
+Interseção 13: (2, 3)
+Interseção 14: (0.5, 1.5)
+Interseção 15: (-12, -15)
+Interseção 16: (4, 1)
+Interseção 17: (2.5, -0.5)
+Interseção 18: (0.8, 4.2)
+Interseção 19: (-0.4, 2.4)
