@@ -1,4 +1,4 @@
-namespace Reta
+ï»¿namespace Forms
 {
     using System;
     using System.Collections.Generic;
@@ -11,7 +11,7 @@ namespace Reta
         [STAThread]
         static void Main()
         {
-            string filePath = ("C:\\Users\\laboratorio\\source\\repos\\Reta\\Reta\\input.txt");
+            string filePath = ("C:\\Users\\laboratorio\\source\\repos\\Forms\\Forms\\input.txt");
 
             List<(int, int, int, int)> retas = new List<(int, int, int, int)>();
 
@@ -52,7 +52,7 @@ namespace Reta
                     double m2 = (double)(y4 - y3) / (x4 - x3);
                     double b2 = y3 - m2 * x3;
 
-                    if (m1 == m2)  // Se as retas s?o paralelas
+                    if (m1 == m2)  // Se as retas sao paralelas
                     {
                         retasParalelas.Add($"Reta {i + 1} e Reta {j + 1} sao paralelas");
                     }
@@ -106,17 +106,30 @@ namespace Reta
 
             if (intersecoes.Count > 0)
             {
-                string textoIntersecoes = "Pontos de interseção:\n";
+                string textoIntersecoes = "Pontos de interseÃ§Ã£o:\n";
                 foreach (var (x, y) in intersecoes)
                 {
-                    textoIntersecoes += $"({x:F2}, {y:F2}) ";
+                    string quadrante = DescobrirQuadrante(x, y);
+                    textoIntersecoes += $"({x:F2}, {y:F2}) â€” {quadrante}\n";
                 }
                 labelIntersecoes.Text = textoIntersecoes;
             }
             else
             {
-                labelIntersecoes.Text = "Não há pontos de interseção.";
+                labelIntersecoes.Text = "NÃ£o hÃ¡ pontos de interseÃ§Ã£o.";
             }
+
+            static string DescobrirQuadrante(double x, double y)
+            {
+                if (x > 0 && y > 0) return "Quadrante 1";
+                else if (x < 0 && y > 0) return "Quadrante 2";
+                else if (x < 0 && y < 0) return "Quadrante 3";
+                else if (x > 0 && y < 0) return "Quadrante 4";
+                else if (x == 0 && y != 0) return "Sobre o eixo Y";
+                else if (y == 0 && x != 0) return "Sobre o eixo X";
+                else return "Na origem (0,0)";
+            }
+
 
 
             var plt = formsPlot.Plot;
@@ -124,7 +137,7 @@ namespace Reta
             plt.Title("Intersecao de Retas");
             plt.Axes.Bottom.Label.Text = "X";
             plt.Axes.Left.Label.Text = "Y";
-           
+
             foreach (var (x1, y1, x2, y2) in retas)
             {
                 double fator = 10;
