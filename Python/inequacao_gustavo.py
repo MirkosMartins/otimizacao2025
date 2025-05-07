@@ -27,7 +27,7 @@ def main():
     #pontos
     retas = {'ponto1': {'x': 2, 'y': 0}, 'ponto2': {'x': 0, 'y': 4}}
 
-    #equancao
+    #equacao
     ang = (retas['ponto2']['y'] - retas['ponto1']['y']) / (retas['ponto2']['x'] - retas['ponto1']['x'])
 
     #reta
