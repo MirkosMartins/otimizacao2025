@@ -1,0 +1,19 @@
+Input
+=====================
+(0, 0) (2, 4) 
+(0, 4) (4, 0)  
+
+Resultados do Gráfico
+=====================
+Retas:
+Reta 1: y = 2,00x + 0,00
+Pontos: (0,0) e (2,4)
+
+Reta 2: y = -1,00x + 4,00
+Pontos: (0,4) e (4,0)
+
+Se cruzam? Sim
+
+Interseção:
+R1 ∩ R2: (1,33, 2,67)
+

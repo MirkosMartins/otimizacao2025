@@ -1,0 +1,53 @@
+Input
+=====================
+(2, 1) (4, 2) >= 
+(1, 10) (10, 1) >= 
+(1, 10) (2, 10) <= 
+(10, 1) (10, 2) <=
+
+Resultados do Gráfico
+=====================
+Retas:
+Reta 1: y >= 0,50x + 0,00
+Pontos: (2,1) e (4,2)
+
+Reta 2: y >= -1,00x + 11,00
+Pontos: (1,10) e (10,1)
+
+Reta 3: y <= 10,00
+Pontos: (1,10) e (2,10)
+
+Reta 4: x <= 10,00
+Pontos: (10,1) e (10,2)
+
+Pontos de Teste
+=====================
+P1: (5,00, 5,00)
+Não satisfaz: Reta 2
+
+P2: (8,00, 4,00)
+Satisfaz a área das retas
+
+P3: (9,00, 2,00)
+Não satisfaz: Reta 1
+
+P4: (2,00, 8,00)
+Não satisfaz: Reta 2
+
+P5: (8,50, 4,50)
+Satisfaz a área das retas
+
+P6: (11,00, 5,00)
+Não satisfaz: Reta 1, Reta 4
+
+P7: (5,00, 11,00)
+Não satisfaz: Reta 3
+
+P8: (1,00, 1,00)
+Não satisfaz: Reta 2
+
+P9: (9,00, 6,00)
+Satisfaz a área das retas
+
+P10: (3,00, 3,00)
+Não satisfaz: Reta 2
