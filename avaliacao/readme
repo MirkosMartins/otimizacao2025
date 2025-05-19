@@ -13,3 +13,14 @@ Colocar em um arquivo a equação, o sinal, os 4 pontos e seus respectivos resul
 *4* - Dadas 4 inequações, verificar a região no 1o quadrante que seja conjunto solução. Fornecer 10 pontos de teste (com seus respectivos
                                                                                                                      resultados)
 Nome do arquivo: primeiro_quadrante-[NOME_DO_ALUNO].txt
+
+
+Como TESTE da avaliação (70% da segunda nota), cada aluno deve gerar um arquivo que contenha um PRINT dos inputs definidos na parte 
+anterior (de 1 a 4) mostrando o resultado da execução do código. Para cada arquivo, deve-se gerar o pdf com o nome 
+TESTE-[NOME_DO_ALUNO_TESTADOR]-[nome do arquivo original].PDF inclusive testando seus próprios arquivos de avaliação.
+
+Ex: TESTE-Mirkos-pontos-Mirkos.txt.pdf
+    TESTE-Mirkos-nao_se-cruzam-Mirkos.txt.pdf
+    TESTE-Mirkos-se_cruzam-Mirkos.txt.pdf
+    TESTE-Mirkos-inequacao-Mirkos.txt.pdf
+    TESTE-Mirkos-primeiro_quadrante-Mirkos.txt.pdf
