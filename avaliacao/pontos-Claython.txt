@@ -1,0 +1,11 @@
+Pontos no formato x1y1, x2y2
+(1, 2)(3, 4)
+(5, 1)(7, 3)
+(9, 6)(11, 5)
+(13, 7)(15, 10)
+
+Funções da reta formato y = mx + b:
+Reta 1  y = 1.0x + 1.0
+Reta 2  y = 1.0x - 4.0
+Reta 3  y = -0.5x + 10.5
+Reta 4  y = 1.5x - 12.5

@@ -1,0 +1,3 @@
+#Retas que NÃO se cruzam
+2x + 1
+2x - 3

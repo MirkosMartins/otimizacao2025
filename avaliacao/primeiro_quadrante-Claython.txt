@@ -1,0 +1,17 @@
+#Inequações
+y >= 1x + 0
+y <= 3x + 0
+y <= -x + 7
+y <= 0.5x + 1
+
+#Pontos
+(1,2)     #Satisfaz
+(2,2)     #Satisfaz
+(3,3)     #Satisfaz
+(2,5)     #Satisfaz
+(4,3)     #Não satisfaz 
+(1,0.5)   #Não satisfaz 
+(2,1)     #Não satisfaz 
+(1,5)     #Não satisfaz 
+(3,6)     #Não satisfaz 
+(2,1.5)   #Não satisfaz 

@@ -1,0 +1,3 @@
+#Retas que se cruzam
+2x + 1
+-x + 4
