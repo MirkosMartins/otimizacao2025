@@ -1,0 +1,17 @@
+Inequações:
+1. y ≥ 0.5x + 1
+2. y ≤ 3x + 2
+3. y ≤ -x + 9
+4. y ≥ x
+
+Pontos de teste:
+Ponto (1, 2): Pertence à região
+Ponto (2, 3): Pertence à região
+Ponto (3, 4): Pertence à região
+Ponto (4, 5): Pertence à região
+Ponto (5, 3): Não pertence à região
+Ponto (2, 5): Não pertence à região
+Ponto (1, 1): Não pertence à região
+Ponto (3, 2): Não pertence à região
+Ponto (4, 6): Pertence à região
+Ponto (5, 6): Não pertence à região

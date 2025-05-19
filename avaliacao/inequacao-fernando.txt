@@ -1,0 +1,9 @@
+Equação da reta: y = -2x + 3
+Inequação usada: y <= -2x + 3
+
+Pontos testados:
+
+Ponto (1, 0) — Quadrante I:        y = 0 ; -2x+3 = 1 => 0 <= 1 → OBEDECE
+Ponto (-1, 4) — Quadrante II:      y = 4 ; -2x+3 = 5 => 4 <= 5 → OBEDECE
+Ponto (-2, -1) — Quadrante III:    y = -1 ; -2x+3 = 7 => -1 <= 7 → OBEDECE
+Ponto (2, 5) — Quadrante IV:       y = 5 ; -2x+3 = -1 => 5 <= -1 → NÃO OBEDECE
