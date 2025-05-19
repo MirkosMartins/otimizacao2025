@@ -18,7 +18,10 @@ def ler_pontos_do_arquivo(caminho):
     with open(caminho, 'r') as arquivo:
         linhas = arquivo.readlines()
         for linha in linhas:
-            pontos_str = linha.strip().split(')(')
+            linha = linha.strip()
+            if not linha or not linha.startswith('('):
+                continue  
+            pontos_str = linha.split(')(')
             pontos_str[0] = pontos_str[0].replace('(', '')
             pontos_str[1] = pontos_str[1].replace(')', '')
             p1 = tuple(map(int, pontos_str[0].split(',')))
@@ -26,16 +29,28 @@ def ler_pontos_do_arquivo(caminho):
             pontos.append((p1[0], p1[1], p2[0], p2[1]))
     return pontos
 
-pontos = ler_pontos_do_arquivo('C:/Users/laboratorio/Desktop/input.txt')
+pontos = ler_pontos_do_arquivo('avaliacao/nao_se_cruzam-Claython.txt')
 
 retas = [calcula_reta(p[0], p[1], p[2], p[3]) for p in pontos]
+
+for i, (a, b) in enumerate(retas, start=1):
+    print(f"Reta {i}: y = {a:.2f}x + {b:.2f}")
+
+for i in range(len(retas)):
+    for j in range(i + 1, len(retas)):
+        intersecao = verifica_interseccao(retas[i][0], retas[i][1], retas[j][0], retas[j][1])
+        if intersecao is None:
+            print(f"Reta {i+1} e Reta {j+1} não tem interseção.")
+        else:
+            xi, yi = intersecao
+            print(f"Reta {i+1} e Reta {j+1} há interseção em ({xi:.2f}, {yi:.2f}).")
 
 interseccoes = [
     verifica_interseccao(retas[i][0], retas[i][1], retas[j][0], retas[j][1])
     for i in range(len(retas)) for j in range(i + 1, len(retas))
 ]
 
-x_vals = np.linspace(-10, 10, 400)
+x_vals = np.linspace(-100, 100, 400)
 y_vals = [a * x_vals + b for a, b in retas]
 
 for i in range(len(retas)):
