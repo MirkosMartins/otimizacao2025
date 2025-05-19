@@ -1,0 +1,15 @@
+Como avaliação, valendo 30% da segunda nota, cada aluno deve submeter nessa pasta o seguinte conteúdo:
+
+*1* - Conjunto de 8 pontos (x,y) com as respectivas 4 funções de reta, em um arquivo chamado pontos-[NOME_DO_ALUNO].txt
+
+*2* - Dadas duas funções de reta, responder se elas se cruzam (sim/não). Caso sim, mostrar o ponto de intersecção.
+  Em um arquivo, mostrar duas funções de reta que NÃO se cruzam - nome do arquivo: nao_se_cruzam-[NOME_DO_ALUNO].txt
+  Em um arquivo, mostrar duas funções de reta que se cruzam - nome do arquivo: se_cruzam-[NOME_DO_ALUNO].txt
+
+*3* - Dada uma função de reta, definir um sinal (<, <=, > ou >=) para convertê-la em inequação.
+Testar com pontos nos 4 quadrantes e testar se obedecem à essa inequação. Para cada ponto, informar se eles obedecem à inequação.
+Colocar em um arquivo a equação, o sinal, os 4 pontos e seus respectivos resultados. Nome do arquivo: inequacao-[NOME_DO_ALUNO].txt
+
+*4* - Dadas 4 inequações, verificar a região no 1o quadrante que seja conjunto solução. Fornecer 10 pontos de teste (com seus respectivos
+                                                                                                                     resultados)
+Nome do arquivo: primeiro_quadrante-[NOME_DO_ALUNO].txt
