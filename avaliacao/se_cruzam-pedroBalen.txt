@@ -1,0 +1,4 @@
+y = x
+y = -x + 2
+
+intersecao em (1,1)

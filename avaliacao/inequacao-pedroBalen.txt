@@ -1,0 +1,13 @@
+y ≥ 2x + 1
+
+Quadrante 1: (2,6)
+Obedece inequacao
+
+Quadrante 2: (-3,4)
+Obedece inequacao
+
+Quadrante 3: (-2,-3)
+Obedece inequacao
+
+Quadrante 4: (4,-2)
+Nao obedece
