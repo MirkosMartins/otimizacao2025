@@ -1,0 +1,12 @@
+y ≤ 3x + 2
+y ≥ x - 1
+x ≤ 4
+y ≤ 5
+
+(1,2) pertence
+(2,3) pertence
+(3,4) pertence
+(4,5) pertence
+(0,0) pertence
+(-2,-3) não pertence
+(-2,-4) não pertence
