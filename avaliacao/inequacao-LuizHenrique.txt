@@ -1,0 +1,8 @@
+Pontos: (0, 2) ;(2, 0)
+
+Inequação: "<=" => y <= m * x + b
+
+Pontos da inequação: (5, 5), Invalido
+                     (5, -5), Valido
+                     (-5, 5), Valido
+                     (-5, -5), Valido

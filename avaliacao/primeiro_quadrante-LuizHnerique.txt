@@ -1,0 +1,11 @@
+Pontos de teste:
+(5, 5), Invalido
+(5, -5), Invalido
+(-5, 5), Invalido
+(-5, -5), Invalido
+(3, 5), Valido
+(3, 4), Valido
+(2, 3), Valido
+(2, 4), Valido
+(1, 5), Invalido
+(1, 2), Invalido
