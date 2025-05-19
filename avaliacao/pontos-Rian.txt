@@ -1,0 +1,15 @@
+Equações das Retas dos Pontos Fornecidos:
+
+Pares de Pontos e suas respectivas equações das retas:
+
+1. Pontos: (2, 3) e (-1, -4)
+   Equação da reta: 7x - 3y - 5 = 0
+
+2. Pontos: (-3, 5) e (4, -2)
+   Equação da reta: x + y - 2 = 0
+
+3. Pontos: (5, 1) e (-2, -6)
+   Equação da reta: x - y - 4 = 0
+
+4. Pontos: (-4, 2) e (3, -5)
+   Equação da reta: x + y + 2 = 0
