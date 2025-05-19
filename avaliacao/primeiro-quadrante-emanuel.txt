@@ -1,0 +1,15 @@
+y <= 2x+1
+y >= x-2
+y <= 6
+y <= 5
+
+(1,1) pertence
+(1,2) pertence
+(2,5) pertence
+(3,6) nao pertence
+(4,4) pertence
+(5,1) pertence
+(6,5) pertence
+(7,7) nao pertence
+(5,4) pertence
+(1,7) nao pertence

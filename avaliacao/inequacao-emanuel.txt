@@ -1,0 +1,6 @@
+y <= 3x + 2
+
+(1,1) obedece
+(1,-1) obedece
+(-1,1) nao obedece
+(-1,-1) obedece
