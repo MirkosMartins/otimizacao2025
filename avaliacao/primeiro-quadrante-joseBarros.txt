@@ -2,3 +2,14 @@ y = -4.0x + 10
 y = 2.0x + 6
 y = -1.8x + 14
 y = 1.8x + 9
+
+(0,10) pertence
+(1,8) pertence
+(2,10) pertence
+(3,9) pertence
+(4,16) pertence
+(5,2) pertence
+(6,20) pertence
+(2,6) pertence
+(1,5) pertence
+(3,14) pertence
