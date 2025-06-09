@@ -1,0 +1,6 @@
+Cada aluno deve construir uma lista de exercícios (com a resposta)
+contendo três problemas na forma de enunciado (texto) para solucionar
+com duas variáveis cada (elementos de produção). O assunto dos problemas
+não está restrito à área de tecnologia.
+A entrega deve ser na forma de arquivo PDF contendo o problema e a solução
+(os 3) em um arquivo com o nome PL-[nomeAluno].pdf nessa pasta.
